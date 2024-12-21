@@ -9,5 +9,14 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src")
     }
-  }
+  },
+  server: {
+    proxy: {
+      "/api": {
+        target: "http://codercba.com:9002", // 后端服务的 HTTP 地址
+        changeOrigin: true, // 修改请求头中的 Origin
+        rewrite: (path) => path.replace(/^\/api/, ""), // 去掉 /api 前缀
+      },
+    },
+  },
 });

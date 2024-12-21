@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASEURL = "http://codercba.com:9002";
+const BASEURL = "/api";
 const TIMEOUT: number = 10000;
 
 const axiosInstance = axios.create({
