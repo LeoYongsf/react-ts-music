@@ -8,7 +8,6 @@ interface IProps {
 const Home: FC<IProps> = () => {
   return (
     <div>
-      This is Home
       <Outlet />
     </div>);
 };
