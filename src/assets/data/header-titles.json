@@ -1,0 +1,22 @@
+[
+  {
+    "title": "推荐",
+    "type": "path",
+    "link": "/home/recommend"
+  },
+  {
+    "title": "排行",
+    "type": "path",
+    "link": "/home/rank"
+  },
+  {
+    "title": "商城",
+    "type": "link",
+    "link": "https://music.163.com/store/product"
+  },
+  {
+    "title": "音乐人",
+    "type": "link",
+    "link": "https://music.163.com/st/musician"
+  }
+]
